@@ -1,0 +1,40 @@
+guid: 0e94d524-e5d7-417a-a917-5a97d59ba66f
+answer:
+  name: cx-be-nov14115245-auto-answer-version-control
+  tables:
+  - id: cx-be-nov14115245-auto-worksheet-version-control
+    name: cx-be-nov14115245-auto-worksheet-version-control
+    fqn: 5375dbc8-7297-4966-9d0d-b45ca4abeb98
+  formulas:
+  - id: decimal sales
+    name: decimal sales
+    expr: "[Sales] * [decimal]"
+    was_auto_generated: false
+  search_query: "[Producttype] [decimal sales]"
+  answer_columns:
+  - name: Producttype
+  - name: Total decimal sales
+  table:
+    table_columns:
+    - column_id: Producttype
+      headline_aggregation: COUNT_DISTINCT
+    - column_id: Total decimal sales
+      headline_aggregation: TABLE_AGGR
+    ordered_column_ids:
+    - Producttype
+    - Total decimal sales
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Producttype\",\"columnProperty\": {}},{\"columnId\": \"Total decimal sales\",\"columnProperty\": {}}]}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Producttype
+    - column_id: Total decimal sales
+    axis_configs:
+    - x:
+      - Producttype
+      "y":
+      - Total decimal sales
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Producttype\",\"columnProperty\": {}},{\"columnId\": \"Total decimal sales\",\"columnProperty\": {}},{\"columnId\": \"3a753b64-bf86-4e5b-a6ad-a8127d90c69d\",\"columnProperty\": {}},{\"columnId\": \"f4edfcba-5dfc-49e1-8cb5-621d30cd7249\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ef8c560c-9642-4cc5-ab4d-6a9b7d5155ed\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total decimal sales\"],\"isOpposite\": false}},{\"id\": \"cdd74033-40f3-42aa-bd0d-827cb7e5400f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Producttype\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total decimal sales\",\"color\": \"#2E75F0\"}]}"
+  display_mode: CHART_MODE
